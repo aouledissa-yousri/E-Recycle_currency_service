@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PFw4ukigpwRx6OVS/Ybn3fFbhizJUSs5zCm4B9Z1hbSVHRm+GXgZZS9bEXF8UW+BWWWLhFLEDi/utCpIkzSPxA==",
+  "dgSpecHash": "rkOVXyXGw8D19ccc884S2oSq2f3B6UhPZOeX/Km9GxIcVDDHj7VDrJwawWYzP5whF6HhEXX41Rccr0VVGjxHVw==",
   "success": true,
   "projectFilePath": "/home/knightbreaker/Desktop/E-Recycle_currency_service/E-Recycle_currency_service.csproj",
   "expectedPackageFiles": [
@@ -12,16 +12,5 @@
     "/home/knightbreaker/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "/home/knightbreaker/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "E-Recycle_currency_service depends on Microsoft.AspNetCore.OpenApi (>= 6.0.0) but Microsoft.AspNetCore.OpenApi 6.0.0 was not found. An approximate best match of Microsoft.AspNetCore.OpenApi 7.0.0 was resolved.",
-      "libraryId": "Microsoft.AspNetCore.OpenApi",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

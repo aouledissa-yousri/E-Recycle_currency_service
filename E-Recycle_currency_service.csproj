@@ -6,7 +6,6 @@
     <RootNamespace>E_Recycle_currency_service</RootNamespace>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <InvariantGlobalization>true</InvariantGlobalization>
-    
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />

@@ -3,4 +3,4 @@ WORKDIR /source
 COPY . . 
 
 EXPOSE 5000 
-ENTRYPOINT [ "dotent", "run" ]
+ENTRYPOINT [ "dotnet", "run" ]

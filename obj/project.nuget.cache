@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "rkOVXyXGw8D19ccc884S2oSq2f3B6UhPZOeX/Km9GxIcVDDHj7VDrJwawWYzP5whF6HhEXX41Rccr0VVGjxHVw==",
+  "success": true,
+  "projectFilePath": "/home/knightbreaker/Desktop/E-Recycle_currency_service/E-Recycle_currency_service.csproj",
+  "expectedPackageFiles": [
+    "/home/knightbreaker/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "/home/knightbreaker/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/knightbreaker/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/knightbreaker/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/knightbreaker/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/knightbreaker/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/knightbreaker/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

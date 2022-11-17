@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/E-Recycle_currency_service.props" />
+</Project>

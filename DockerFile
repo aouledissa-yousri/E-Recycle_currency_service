@@ -1,12 +1,1 @@
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
-WORKDIR /source 
-COPY . . 
-RUN dotnet restore "./E-Recycle_currency_service/E-Recycle_currency_service.csproj" --disable-parall
-RUN dotnet publish "./E-Recycle_currency_service/E-Recycle_currency_service.csproj" -c release -o /app --no-restore
-
-FROM mcr.microsoft.com/dotnet/aspnet:7.0-focal 
-WORKDIR app/ 
-COPY --from=build /app ./
-
-EXPOSE 5000 
-ENTRYPOINT [ "dotnet", "E-Recycle_currency_service.dll" ]

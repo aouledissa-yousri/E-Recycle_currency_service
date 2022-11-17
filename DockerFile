@@ -1,4 +1,5 @@
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
+RUN dotnet --version
 WORKDIR /app
 
 # Copy everything

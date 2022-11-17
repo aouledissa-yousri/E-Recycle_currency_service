@@ -10,6 +10,6 @@ public class CoinsService {
     }
 
     public static void updateRecycleCoins(int id, float recycleCoins) {
-        var response = httpClient.PatchAsync(Hosts.coreUrl+"/gainRecycleCoins/", new StringContent(JsonSerializer.Serialize<UpdateRecycleCoinsPayload>(UpdateRecycleCoinsPayload.createUpdateRecycleCoinsPayload(id, recycleCoins))));
+        httpClient.PatchAsync(Hosts.coreUrl+"/gainRecycleCoins/", new StringContent(JsonSerializer.Serialize<UpdateRecycleCoinsPayload>(UpdateRecycleCoinsPayload.createUpdateRecycleCoinsPayload(id, recycleCoins))));
     }
 }

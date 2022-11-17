@@ -9,7 +9,7 @@ public class CoinsController : ControllerBase {
 
 
     [HttpPatch(Name = "gainCoins")]
-    [Route("gainCoins")]
+    [Route("gainRecycleCoins")]
     public string gainCoins([FromBody] GainRecycleCoinsPayload  gainCoinsPayload){
 
         if(gainCoinsPayload.id == 0)

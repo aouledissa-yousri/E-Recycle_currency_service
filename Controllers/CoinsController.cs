@@ -8,6 +8,7 @@ namespace E_Recycle_currency_service;
 public class CoinsController : ControllerBase {
 
 
+
     [HttpPatch(Name = "gainCoins")]
     [Route("gainRecycleCoins")]
     public string gainCoins([FromBody] GainRecycleCoinsPayload  gainCoinsPayload){
@@ -18,4 +19,12 @@ public class CoinsController : ControllerBase {
         CoinsService.updateRecycleCoins(gainCoinsPayload.id, CoinsService.calculateRecycleCoins(gainCoinsPayload));
         return JsonSerializer.Serialize<RecycleRecycleCoinsAddedResponse>(RecycleRecycleCoinsAddedResponse.createRecycleRecycleCoinsAddedResponse());
     }
+
+    [HttpGet(Name = "getCoins")]
+    [Route("getRecycleCoins")]
+    public async Task<string> getCoins([FromHeader] string Token){
+        return await CoinsService.getRecycleCoins(Token);
+    }
+
+
 }

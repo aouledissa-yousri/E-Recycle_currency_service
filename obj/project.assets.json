@@ -5,7 +5,7 @@
       "Microsoft.Build/17.3.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Build.Framework": "17.3.0",
+          "Microsoft.Build.Framework": "17.3.0+92e077650",
           "Microsoft.NET.StringTools": "17.3.0",
           "System.Collections.Immutable": "6.0.0",
           "System.Configuration.ConfigurationManager": "6.0.0",
@@ -27,7 +27,7 @@
           }
         }
       },
-      "Microsoft.Build.Framework/17.3.0": {
+      "Microsoft.Build.Framework/17.3.0+92e077650": {
         "type": "package",
         "dependencies": {
           "System.Security.Permissions": "6.0.0"
@@ -43,10 +43,10 @@
           }
         }
       },
-      "Microsoft.Build.Utilities.Core/17.3.0": {
+      "Microsoft.Build.Utilities.Core/17.3.0+92e077650": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Build.Framework": "17.3.0",
+          "Microsoft.Build.Framework": "17.3.0+92e077650",
           "Microsoft.NET.StringTools": "17.3.0",
           "System.Collections.Immutable": "6.0.0",
           "System.Configuration.ConfigurationManager": "6.0.0"
@@ -511,10 +511,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Build/17.3.0": {
+    "Microsoft.Build/17.3.0+92e077650": {
       "sha512": "zE3pLvsGBBV0093aqz1ALC16iDgzJT+eeycrM1250br6+RxfvY/oMHmvTSydg+uv7yvcBF/BVDYgF1KxWjyeyA==",
       "type": "package",
-      "path": "microsoft.build/17.3.0",
+      "path": "microsoft.build/17.3.0+92e077650",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -526,7 +526,7 @@
         "lib/net6.0/Microsoft.Build.dll",
         "lib/net6.0/Microsoft.Build.pdb",
         "lib/net6.0/Microsoft.Build.xml",
-        "microsoft.build.17.3.0.nupkg.sha512",
+        "microsoft.build.17.3.0+92e077650.nupkg.sha512",
         "microsoft.build.nuspec",
         "notices/THIRDPARTYNOTICES.txt",
         "ref/net472/Microsoft.Build.dll",
@@ -535,10 +535,10 @@
         "ref/net6.0/Microsoft.Build.xml"
       ]
     },
-    "Microsoft.Build.Framework/17.3.0": {
+    "Microsoft.Build.Framework/17.3.0+92e077650": {
       "sha512": "Gxb6tstPrahL5rQgcoFru4BymI7HJGkWCgmivlnuziny3JMHBePemwREbQMfZ4jFqq4HhqRgJ3bYF4kkjYPQpQ==",
       "type": "package",
-      "path": "microsoft.build.framework/17.3.0",
+      "path": "microsoft.build.framework/17.3.0+92e077650",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -550,7 +550,7 @@
         "lib/net6.0/Microsoft.Build.Framework.dll",
         "lib/net6.0/Microsoft.Build.Framework.pdb",
         "lib/net6.0/Microsoft.Build.Framework.xml",
-        "microsoft.build.framework.17.3.0.nupkg.sha512",
+        "microsoft.build.framework.17.3.0+92e077650.nupkg.sha512",
         "microsoft.build.framework.nuspec",
         "notices/THIRDPARTYNOTICES.txt",
         "ref/net472/Microsoft.Build.Framework.dll",
@@ -561,10 +561,10 @@
         "ref/netstandard2.0/Microsoft.Build.Framework.xml"
       ]
     },
-    "Microsoft.Build.Utilities.Core/17.3.0": {
+    "Microsoft.Build.Utilities.Core/17.3.0+92e077650": {
       "sha512": "4s+hE66gXz/Ag42ZFzrxPAFCa1USsU0nITegYp8G9qAHhpZnIA+QEHHnrd4KhhzIV1TO4xo3KtCCpCG5Z0r1vA==",
       "type": "package",
-      "path": "microsoft.build.utilities.core/17.3.0",
+      "path": "microsoft.build.utilities.core/17.3.0+92e077650",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -576,7 +576,7 @@
         "lib/net6.0/Microsoft.Build.Utilities.Core.dll",
         "lib/net6.0/Microsoft.Build.Utilities.Core.pdb",
         "lib/net6.0/Microsoft.Build.Utilities.Core.xml",
-        "microsoft.build.utilities.core.17.3.0.nupkg.sha512",
+        "microsoft.build.utilities.core.17.3.0+92e077650.nupkg.sha512",
         "microsoft.build.utilities.core.nuspec",
         "notices/THIRDPARTYNOTICES.txt",
         "ref/net472/Microsoft.Build.Utilities.Core.dll",
@@ -1274,7 +1274,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.Build >= 17.3.0",
+      "Microsoft.Build >= 17.3.0+92e077650",
       "Microsoft.Build.Utilities.Core >= 17.3.0",
       "Microsoft.OpenApi >= 1.2.3",
       "Swashbuckle.AspNetCore >= 6.2.3",
@@ -1321,12 +1321,12 @@
           "Microsoft.Build": {
             "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "target": "Package",
-            "version": "[17.3.0, )"
+            "version": "[17.3.0+92e077650, )"
           },
           "Microsoft.Build.Utilities.Core": {
             "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "target": "Package",
-            "version": "[17.3.0, )"
+            "version": "[17.3.0+92e077650, )"
           },
           "Microsoft.OpenApi": {
             "target": "Package",

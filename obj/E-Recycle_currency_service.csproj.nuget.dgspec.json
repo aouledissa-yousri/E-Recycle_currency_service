@@ -41,7 +41,7 @@
             "Microsoft.Build": {
               "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[17.3.0, )"
+              "version": "[17.3.0+92e077650, )"
             },
             "Microsoft.Build.Utilities.Core": {
               "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZsG8tIOBJuuQZwcREI91m1MtPiR0xoRQUQF2KoygG0Tl6Pmv8B7pbr9OONf6kRXSZbEC2vc+A0p/wULVRdcr1Q==",
+  "dgSpecHash": "NUnlpZXiEftEingH6pRleGrUPnlb4VFkaOFHsyvAlZWQdnhEXPdYsDlM2FHkwzhKckHgOK46jk1u4VXF1ymw2A==",
   "success": true,
   "projectFilePath": "/home/knightbreaker/Desktop/E-Recycle_currency_service/E-Recycle_currency_service.csproj",
   "expectedPackageFiles": [
@@ -31,9 +31,9 @@
     "/home/knightbreaker/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
     "/home/knightbreaker/.nuget/packages/system.threading.tasks.dataflow/6.0.0/system.threading.tasks.dataflow.6.0.0.nupkg.sha512",
     "/home/knightbreaker/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
-    "/home/knightbreaker/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
     "/home/knightbreaker/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "/home/knightbreaker/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.11/microsoft.netcore.app.host.linux-x64.6.0.11.nupkg.sha512"
+    "/home/knightbreaker/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.11/microsoft.netcore.app.host.linux-x64.6.0.11.nupkg.sha512",
+    "/home/knightbreaker/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }

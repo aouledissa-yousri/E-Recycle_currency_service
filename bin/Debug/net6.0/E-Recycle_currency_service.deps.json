@@ -11,7 +11,8 @@
           "Microsoft.Build": "17.3.0",
           "Microsoft.Build.Utilities.Core": "17.3.0",
           "Microsoft.OpenApi": "1.2.3",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "System.Text.Json": "6.0.0"
         },
         "runtime": {
           "E-Recycle_currency_service.dll": {}
@@ -170,21 +171,21 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-zE3pLvsGBBV0093aqz1ALC16iDgzJT+eeycrM1250br6+RxfvY/oMHmvTSydg+uv7yvcBF/BVDYgF1KxWjyeyA==",
-      "path": "microsoft.build/17.3.0",
+      "path": "microsoft.build/17.3.0+92e077650",
       "hashPath": "microsoft.build.17.3.0.nupkg.sha512"
     },
     "Microsoft.Build.Framework/17.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Gxb6tstPrahL5rQgcoFru4BymI7HJGkWCgmivlnuziny3JMHBePemwREbQMfZ4jFqq4HhqRgJ3bYF4kkjYPQpQ==",
-      "path": "microsoft.build.framework/17.3.0",
+      "path": "microsoft.build.framework/17.3.0+92e077650",
       "hashPath": "microsoft.build.framework.17.3.0.nupkg.sha512"
     },
     "Microsoft.Build.Utilities.Core/17.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-4s+hE66gXz/Ag42ZFzrxPAFCa1USsU0nITegYp8G9qAHhpZnIA+QEHHnrd4KhhzIV1TO4xo3KtCCpCG5Z0r1vA==",
-      "path": "microsoft.build.utilities.core/17.3.0",
+      "path": "microsoft.build.utilities.core/17.3.0+92e077650",
       "hashPath": "microsoft.build.utilities.core.17.3.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
